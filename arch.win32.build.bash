@@ -15,7 +15,8 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-export PATH=$PATH:/c/MinGW/bin/:/c/cygwin/bin/
+//export PATH=$PATH://c/MinGW/bin/:/c/cygwin/bin/
+export PATH=$PATH:/cygdrive/c/MinGW/bin/:/cygdrive/c/cygwin/bin/
 CFLAGS="-DWIN32 -static" CXXFLAGS="-DWIN32 -static" LDFLAGS="-DWIN32 -static" CC="mingw32-gcc -m32" CXX="mingw32-g++ -m32" ./build.all.bash
 
 rm -f avr-toolchain-*.zip
