@@ -53,8 +53,10 @@ You need to install Cygwin: http://www.cygwin.com/. Once you have run `setup-x86
 - automake
 - autoconf
 - gcc-g++
-- texinfo (must be at version 4.13 since 5+ won't work)
 - libncurses-devel
+
+Old version of texinfo can be downloaded from http://ftp.gnu.org/gnu/texinfo/texinfo-4.13.tar.gz
+Follow directions in INSTALL.generic
 
 A note on texinfo: due to dependencies, each time you update/modify your cygwin installation (for example: you install an additional package), texinfo will be upgraded to version 5+, while you need version 4+!
 Easy solution: as soon as you've installed the additional package, re-run cygwin setup, search texinfo, triple click on "Keep" until you read version 4, then click next.
